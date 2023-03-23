@@ -65,11 +65,8 @@ void	a_min_max(t_stack *stack)
 
 void	position(t_data *stack, t_data	*target)
 {
-	int		i;
-
 	if (!target)
 		return ;
-	i = 0;
 	target->down = p_lstsize(target);
 	target->up = p_lstsize(stack) - target->down;
 	target = target->next;

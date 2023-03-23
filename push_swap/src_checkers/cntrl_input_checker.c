@@ -62,10 +62,8 @@ t_data	*convert_int(t_list *stack)
 {
 	t_data	*stack_a;
 	t_data	*tmp;
-	t_list	*tmp1;
 
 	stack_a = NULL;
-	tmp1 = stack;
 	while (stack)
 	{
 		tmp = p_lstnew(p_atoi(stack->content), -1);

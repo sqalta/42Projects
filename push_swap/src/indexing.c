@@ -58,12 +58,10 @@ void	inx_stacka(t_stack	*stack)
 void	index_stacka(t_stack	*stack)
 {
 	t_data	*tmp;
-	t_data	*tmp1;
 	int		swap;
 
 	cpy_stack_a(stack);
 	tmp = stack->a_cpy;
-	tmp1 = stack->a_cpy;
 	while (stack->a_cpy->next)
 	{
 		if (stack->a_cpy->nbr > stack->a_cpy->next->nbr)

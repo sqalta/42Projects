@@ -43,9 +43,6 @@ void	start_small_sort(t_stack *stack)
 
 void	start_small_sort2(t_stack *stack)
 {
-	t_data	*tmp;
-
-	tmp = stack->a;
 	while (p_lstsize(stack->a) > 3)
 	{
 		if (stack->a->inx < 3)
