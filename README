@@ -50,4 +50,25 @@
         Siz ne mi yapacaksınız? C dilinde argüman olarak alınan integerları sıralayan Push_swap
         talimatlarını kullanarak en kısa programı hesaplayan ve bastıran push_swap programını
         yazacaksınız..”
+
+- Project 8 <Philosophers>
+    - Kazanımlar
+    Philosophers projesi, C programlama dili kullanılarak geliştirilen bir senkronizasyon ve paralel programlama projesidir. Bu proje, ünlü "Yemek masası felsefecileri" problemine dayanır ve senkronizasyon mekanizmalarının
+    (örneğin, semaforlar veya kilitleme) kullanımını gerektirir. Philosophers projesinde, belirli sayıda felsefe öğrencisi (felsefeciler) temsil edilir ve bir masa etrafında otururlar. Her felsefeci, yemek yiyebilmek için
+    çatal ve bıçak kullanmalıdır. Ancak, her felsefeci hem solundaki hem de sağında oturan felsefecinin kullandığı çatala ihtiyaç duyar. Bu durum, senkronizasyon problemleri ve kilitlenme durumlarına dikkat etme
+    gerekliliğini ortaya çıkarır. Philosophers projesi, paralel programlama, senkronizasyon ve kritik bölgeler gibi konuları anlamak ve uygulamak için kullanışlı bir örnek olarak hizmet eder.
+
+- Project 9 <Minishell>
+    - Kazanımlar
+    Minishell projesi, C programlama dili kullanılarak geliştirilen, bir kabuk (shell) benzeri bir komut satırı yorumlayıcısıdır. Bu proje, Unix tabanlı işletim sistemlerinde kullanılan komut satırı kabuklarının
+    temel işlevlerini taklit etmeyi amaçlar. Minishell, kullanıcının komutları girdiği bir arayüz sağlayarak bu komutları çalıştırır, işletim sistemine bağlı programları çalıştırma, dosya yönetimi, komut işleme ve
+    yönlendirme gibi işlevleri gerçekleştirir. Minishell, komut yorumlama, çevre değişkenleri, iş parçacığı (thread) yönetimi, sinyal işleme ve daha fazlası gibi temel sistem çağrılarını kullanarak işletim sistemine erişir.
+    Bu proje, C dilinde sistem programlamaya ilgi duyanlar için öğrenme ve deneyim kazanma amacıyla tasarlanmıştır. Minishell, işletim sistemi kabukları ve komut satırı işlemleri hakkında daha iyi bir anlayış sağlayabilir
+
+- Project 10 <Cub3d>
+    - Kazanımlar
+    Cube3D projesi, C programlama dilinde Minilibx kütüphanesini kullanarak geliştirilen, Wolfenstein oyunundan ilham alan bir 3D oyun projesidir.
+    Bu projede, Minilibx'in grafik işleme ve pencere yönetimi yetenekleri kullanılarak, 3D dünyayı oluşturmak için çizim, renklendirme ve animasyon
+    fonksiyonları kullanılıyor. Ancak, bu proje daha küçük çaplı bir 3D oyun olup, tam bir oyun motoru veya kapsamlı bir grafik kütüphanesi gerektiren özelliklere sahip değildir.
+    Cube3D, C dilinde grafik programlamaya ilgi duyanlar için eğitim veya deneme amaçlı olarak kullanılabilecek basit bir örnektir.
    
